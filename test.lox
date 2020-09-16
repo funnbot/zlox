@@ -1,0 +1,16 @@
+var res = "";
+{
+    var i = 1 > -4;
+    i = 3;
+    var str = "Hi";
+    while (i > 0) {
+        i = i - 1;
+        str = str + "i";
+        fun inner(s) {
+            return str + s + "i";
+        }
+        str = inner(str);
+    }
+    res = str;
+}
+print res;
